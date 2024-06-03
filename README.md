@@ -87,8 +87,8 @@ na pasta /etc/apache2/
 ```sh
 sudo nano /etc/apache/apache2.conf
 ```
-Adicionando a seguinte linha ao final do arquivo
-![include](/media/include-path.png)
+Adicionando a seguinte linha ao final do arquivo <br>
+![include](/media/include-path.png) <br>
 Reiniciando o servidor web
 ```sh
 sudo systemctl apache2 restart
