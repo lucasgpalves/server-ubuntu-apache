@@ -4,7 +4,7 @@ Estarei utilizando um sistema Windows + WSL
 Apache2 + PHP + MariaDB + phpMyAdmin
 
 Para este projeto escolhi a distro Ubuntu 22.04
-[versao](/media/version.png)
+![versao](/media/version.png)
 
 ## Apache
 
@@ -88,7 +88,7 @@ na pasta /etc/apache2/
 sudo nano /etc/apache/apache2.conf
 ```
 Adicionando a seguinte linha ao final do arquivo
-[!include](/media/include-path.png)
+![include](/media/include-path.png)
 Reiniciando o servidor web
 ```sh
 sudo systemctl apache2 restart
